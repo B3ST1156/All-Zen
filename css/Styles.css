@@ -1,5 +1,31 @@
 /* My awesome Zen Garden Site */
 
-body {
+/*Layout*/
+* {
+box-sizing: border-box;
+}
+
+/*color palette*/
+
+/*footer nav*/
+
+footer{
+    background: yellow;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a {
+    display: inline;
     background: teal;
+    padding: 1em;
+}
+
+footer a {
+    text-indent: -1000;
+    transition: text-indent 1s
+}
+
+footer:hover a {
+    text-indent: 0;
 }
